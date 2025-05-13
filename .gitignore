@@ -1,0 +1,15 @@
+##### IntelliJ #####
+.idea
+*.iml
+out
+
+
+##### Visual Studio Code #####
+.vscode
+
+##### Eclipse #####
+.metadata
+.settings
+bin
+.classpath
+.project
