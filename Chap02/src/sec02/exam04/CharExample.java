@@ -32,7 +32,7 @@ public class CharExample {
 		// (참고) char 타입의 산술 연산
 		char var1 = 'A' + 1;
 		System.out.println(var1);
-		char var2 = 'A';
+//		char var2 = 'A';
 //	char var3 = var2 + 1; // char 변수 var2가 산술 연산에 쓰이면 int로 promotion됨
 		
 		// 문자 '0' -> 유니코드 48

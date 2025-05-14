@@ -7,6 +7,7 @@ public class VariableScopeExample {
 		if (v1 > 10) {
 			int v2; // if 블록에서 선언
 			v2 = v1 - 10;
+			System.out.println(v2);
 		}
 		
 //		int v3 = v1 + v2 + 5; // v2 변수를 사용할 수 없기 때문에 compile error 발생
