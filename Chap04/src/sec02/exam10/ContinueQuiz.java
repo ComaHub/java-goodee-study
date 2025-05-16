@@ -1,0 +1,34 @@
+package sec02.exam10;
+
+// Quiz
+// 철수는 여자친구 영희에게 생일 축하 메시지를 보내려고 해요. 
+// 그런데 철수의 여자친구 영희는 띄어쓰기를 싫어합니다.
+// 철수가 어떤 문자열을 입력하든 영희에게 혼나지 않게
+// 글자 사이에 있는 띄어쓰기가 없게 출력해주세요.
+
+// 힌트: 
+// - 문자열의 길이를 측정할때는 length()를 사용, 예: str.length()
+// - 반복문을 활용하여 공백을 만날 경우 다음 반복 회차로 넘어가세요.
+
+// [입력]
+// 영희야 생 일 축 하 해 !
+
+// [출력]
+// 영희야생일축하해!
+
+import java.util.Scanner;
+
+public class ContinueQuiz {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String inputMessage = scanner.nextLine();
+		for (int i = 0; i < inputMessage.length(); i++) {
+			String word = inputMessage.charAt(i) + "";
+			
+			if (" ".equals(word)) continue;
+			
+			System.out.print(word);
+		}
+	}
+}
