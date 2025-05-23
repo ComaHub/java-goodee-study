@@ -31,10 +31,7 @@ public class Employee extends Person {
 	
 	@Override
 	public String toString() {
-		return ("=== " + getName() + " ==="
-					+ "\n나이: " + getAge()
-					+ "\n키: " + getHeight()
-					+ "\n체중: " + getWeight()
+		return (super.toString()
 					+ "\n급여: " + getSalary()
 					+ "\n부서: " + getDept());
 	}

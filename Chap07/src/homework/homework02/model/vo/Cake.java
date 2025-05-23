@@ -29,6 +29,7 @@ public class Cake {
 
 	@Override
 	public String toString() {
-		return "Cake [flour=" + flour + ", cream=" + cream + "]";
+		return ("밀가루: " + getFlour() + "(g)\n"
+				+ "크림: " + getCream() + "(g)");
 	}
 }

@@ -30,6 +30,8 @@ public class GreenTea extends Cake {
 
 	@Override
 	public String toString() {
-		return "GreenTea [powder=" + powder + ", cheese=" + cheese + "]";
+		return (super.toString() + "\n"
+					+ "녹차 파우더: " + getPowder() + "(g)\n"
+					+ "치즈 큐브: " + getCheese() + "(개)");
 	}
 }

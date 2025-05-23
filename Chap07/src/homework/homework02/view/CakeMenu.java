@@ -50,6 +50,7 @@ public class CakeMenu {
 		int inputChip = sc.nextInt();
 		
 		System.out.println(cc.bakeChocolateCake(inputFlour, inputCream, inputCherry, inputChip));
+		System.out.println("초콜릿 케이크가 완성되었습니다.");
 	}
 	
 	public void greenTeaMenu() {
@@ -66,5 +67,6 @@ public class CakeMenu {
 		int inputCheese = sc.nextInt();
 		
 		System.out.println(gtc.bakeGreenTeaCake(inputFlour, inputCream, inputPowder, inputCheese));
+		System.out.println("녹차 케이크가 완성되었습니다.");
 	}
 }

@@ -30,6 +30,8 @@ public class Chocolate extends Cake {
 
 	@Override
 	public String toString() {
-		return "Chocolate [cherry=" + cherry + ", chip=" + chip + "]";
+		return (super.toString() + "\n"
+					+ "체리: " + getCherry() + "(개)\n"
+					+ "초콜릿 칩: " + getChip() + "(개)");
 	}
 }
