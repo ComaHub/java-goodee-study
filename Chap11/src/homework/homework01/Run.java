@@ -6,7 +6,7 @@ public class Run {
 		String[] people = str.split("\n");
 		
 		Person[] personArr = new Person[3];
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < personArr.length; i++) {
 			String[] person = people[i].split(",");
 			personArr[i] = new Person(person[0], Integer.parseInt(person[1]), person[2], person[3].charAt(0));
 		}
