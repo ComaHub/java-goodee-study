@@ -20,7 +20,6 @@ public class LotteryController {
 	public boolean deleteObject(Lottery lottery) {
 		boolean result = this.lottery.remove(lottery);
 		
-		if (result && win != null) this.win.remove(lottery);
 		
 		return result;
 	}
